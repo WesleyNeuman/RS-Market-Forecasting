@@ -21,7 +21,23 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DataManagement\ApiHandler.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataManagement\MySqlDbHandler.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MachineLearning\InputFormatter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MachineLearning\LSTM.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="RSFutureSight.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataManagement\" />
+    <Folder Include="MachineLearning\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
