@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RSFutureSight", "RSFutureSight.pyproj", "{22A9686B-14E6-4EB1-8333-A3B6B7B5146E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22A9686B-14E6-4EB1-8333-A3B6B7B5146E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A9686B-14E6-4EB1-8333-A3B6B7B5146E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9BCF78F-DA93-4851-9B8D-F6304840D0F1}
+	EndGlobalSection
+EndGlobal
